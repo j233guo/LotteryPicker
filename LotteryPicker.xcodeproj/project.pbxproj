@@ -14,6 +14,7 @@
 		C9B9123C28AFF1CF00A19796 /* LotteryPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9123B28AFF1CF00A19796 /* LotteryPickerTests.swift */; };
 		C9B9124628AFF1CF00A19796 /* LotteryPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9124528AFF1CF00A19796 /* LotteryPickerUITests.swift */; };
 		C9B9124828AFF1CF00A19796 /* LotteryPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9124728AFF1CF00A19796 /* LotteryPickerUITestsLaunchTests.swift */; };
+		C9B9125828AFF9B500A19796 /* Picker649.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9125728AFF9B500A19796 /* Picker649.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C9B9124128AFF1CF00A19796 /* LotteryPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B9124528AFF1CF00A19796 /* LotteryPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryPickerUITests.swift; sourceTree = "<group>"; };
 		C9B9124728AFF1CF00A19796 /* LotteryPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9B9125728AFF9B500A19796 /* Picker649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker649.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,8 @@
 		C9B9122928AFF1CE00A19796 /* LotteryPicker */ = {
 			isa = PBXGroup;
 			children = (
+				C9B9125428AFF98000A19796 /* Views */,
 				C9B9122A28AFF1CE00A19796 /* LotteryPickerApp.swift */,
-				C9B9122C28AFF1CE00A19796 /* ContentView.swift */,
 				C9B9122E28AFF1CF00A19796 /* Assets.xcassets */,
 				C9B9123028AFF1CF00A19796 /* Preview Content */,
 			);
@@ -125,6 +127,15 @@
 				C9B9124728AFF1CF00A19796 /* LotteryPickerUITestsLaunchTests.swift */,
 			);
 			path = LotteryPickerUITests;
+			sourceTree = "<group>";
+		};
+		C9B9125428AFF98000A19796 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9B9122C28AFF1CE00A19796 /* ContentView.swift */,
+				C9B9125728AFF9B500A19796 /* Picker649.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B9125828AFF9B500A19796 /* Picker649.swift in Sources */,
 				C9B9122D28AFF1CE00A19796 /* ContentView.swift in Sources */,
 				C9B9122B28AFF1CE00A19796 /* LotteryPickerApp.swift in Sources */,
 			);
