@@ -36,20 +36,7 @@ struct Picker649: View {
         VStack {
             LazyVGrid(columns: gridItems) {
                 ForEach(1..<50) { i in
-                    ZStack {
-                        Circle()
-                            .foregroundColor(selections.contains(i) ? .blue : .white)
-                            .frame(width: 45, height: 45)
-                        Text("\(i)")
-                            .bold()
-                            .foregroundColor(selections.contains(i) ? .white : .black)
-                    }
-                    .overlay(
-                        Circle()
-                            .strokeBorder(lineWidth: 2, antialiased: true)
-                            .foregroundColor(.gray)
-                    )
-                    .padding(.horizontal)
+                    PickerNumberLabel(selected: selections.contains(i), number: i, backgroundColor: Color.blue)
                 }
             }
             .padding()
@@ -57,17 +44,7 @@ struct Picker649: View {
             Button {
                 pick()
             } label: {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 10)
-                        .frame(width: 200, height: 50)
-                    HStack {
-                        Image(systemName: "arrow.clockwise")
-                            .foregroundColor(.white)
-                        Text("Pick")
-                            .foregroundColor(.white)
-                            .font(.title3.bold())
-                    }
-                }
+                PickButtonLabel()
             }
             .padding(.vertical)
             Spacer()

@@ -15,6 +15,9 @@
 		C9B9124628AFF1CF00A19796 /* LotteryPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9124528AFF1CF00A19796 /* LotteryPickerUITests.swift */; };
 		C9B9124828AFF1CF00A19796 /* LotteryPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9124728AFF1CF00A19796 /* LotteryPickerUITestsLaunchTests.swift */; };
 		C9B9125828AFF9B500A19796 /* Picker649.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9125728AFF9B500A19796 /* Picker649.swift */; };
+		C9B9125A28B0039A00A19796 /* PickButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9125928B0039A00A19796 /* PickButtonLabel.swift */; };
+		C9B9125E28B0050500A19796 /* PickerNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9125D28B0050500A19796 /* PickerNumberLabel.swift */; };
+		C9B9126028B006DC00A19796 /* PickerLottoMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9125F28B006DC00A19796 /* PickerLottoMax.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		C9B9124528AFF1CF00A19796 /* LotteryPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryPickerUITests.swift; sourceTree = "<group>"; };
 		C9B9124728AFF1CF00A19796 /* LotteryPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C9B9125728AFF9B500A19796 /* Picker649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker649.swift; sourceTree = "<group>"; };
+		C9B9125928B0039A00A19796 /* PickButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickButtonLabel.swift; sourceTree = "<group>"; };
+		C9B9125D28B0050500A19796 /* PickerNumberLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerNumberLabel.swift; sourceTree = "<group>"; };
+		C9B9125F28B006DC00A19796 /* PickerLottoMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerLottoMax.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,10 +138,29 @@
 		C9B9125428AFF98000A19796 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C9B9126228B009DE00A19796 /* Elements */,
+				C9B9126128B009D500A19796 /* Pages */,
 				C9B9122C28AFF1CE00A19796 /* ContentView.swift */,
-				C9B9125728AFF9B500A19796 /* Picker649.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C9B9126128B009D500A19796 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				C9B9125728AFF9B500A19796 /* Picker649.swift */,
+				C9B9125F28B006DC00A19796 /* PickerLottoMax.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		C9B9126228B009DE00A19796 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				C9B9125928B0039A00A19796 /* PickButtonLabel.swift */,
+				C9B9125D28B0050500A19796 /* PickerNumberLabel.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +296,9 @@
 				C9B9125828AFF9B500A19796 /* Picker649.swift in Sources */,
 				C9B9122D28AFF1CE00A19796 /* ContentView.swift in Sources */,
 				C9B9122B28AFF1CE00A19796 /* LotteryPickerApp.swift in Sources */,
+				C9B9126028B006DC00A19796 /* PickerLottoMax.swift in Sources */,
+				C9B9125A28B0039A00A19796 /* PickButtonLabel.swift in Sources */,
+				C9B9125E28B0050500A19796 /* PickerNumberLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

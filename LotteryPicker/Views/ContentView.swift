@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         NavigationView {
             List {
@@ -15,6 +16,11 @@ struct ContentView: View {
                     Picker649()
                 } label: {
                     Text("649")
+                }
+                NavigationLink {
+                    PickerLottoMax()
+                } label: {
+                    Text("Lotto Max")
                 }
             }
             .navigationTitle("Lottery Pickers")
