@@ -13,9 +13,9 @@ struct PickerLottoMax: View {
     func pick() {
         selections = []
         while selections.count < 7 {
-            var currPick = Int.random(in: 1...49)
+            var currPick = Int.random(in: 1...50)
             while selections.contains(currPick) {
-                currPick = Int.random(in: 1...49)
+                currPick = Int.random(in: 1...50)
             }
             selections.append(currPick)
         }

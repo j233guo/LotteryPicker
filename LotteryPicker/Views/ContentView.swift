@@ -15,7 +15,7 @@ struct ContentView: View {
                 NavigationLink {
                     Picker649()
                 } label: {
-                    Text("649")
+                    Text("Lotto 649")
                 }
                 NavigationLink {
                     PickerLottoMax()

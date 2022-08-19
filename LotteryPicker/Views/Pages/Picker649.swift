@@ -49,7 +49,7 @@ struct Picker649: View {
             .padding(.vertical)
             Spacer()
         }
-        .navigationBarTitle("649")
+        .navigationBarTitle("Lotto 649")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
